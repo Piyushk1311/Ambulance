@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,8 +12,8 @@
 <meta name="description" content="24×7 ambulance service in Patna. Emergency, ICU, patient transfer, dead body freezer, mortuary van, long distance and air ambulance from Patna to anywhere in India. Charges Rs 700 onwards. Call 97310 07202." />
 <meta name="keywords" content="ambulance service in Patna, 24x7 ambulance Patna, ICU ambulance Patna, dead body freezer Patna, mortuary van Patna, long distance ambulance Patna, air ambulance Patna, patient transfer Patna" />
 <meta name="robots" content="index, follow, max-image-preview:large" />
-<meta name="ext-resource-dependency" content="images/ambulance-highway.png" data-resource-id="fleet1" />
-<meta name="ext-resource-dependency" content="images/icu-interior.png" data-resource-id="fleet2" />
+<meta name="ext-resource-dependency" content="images/ambulance-highway.webp" data-resource-id="fleet1" />
+<meta name="ext-resource-dependency" content="images/icu-interior.webp" data-resource-id="fleet2" />
 <meta name="ext-resource-dependency" content="images/ambulance-rear.webp" data-resource-id="fleet3" />
 <meta name="ext-resource-dependency" content="images/freezer-ambulance.jpeg" data-resource-id="fleet4" />
 <meta name="ext-resource-dependency" content="images/mortuary-van-interior.jpeg" data-resource-id="fleet5" />
@@ -21,6 +21,10 @@
 <meta name="geo.region" content="IN-BR" />
 <meta name="geo.placename" content="Patna" />
 <link rel="canonical" href="https://ambulanceinpatna.com/" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png" />
+<link rel="icon" href="favicon-16.png" sizes="16x16" type="image/png" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Patna Ambulance Services" />
 <meta property="og:title" content="Ambulance Service in Patna 24×7 | ICU, Freezer &amp; Long Distance" />
@@ -185,7 +189,7 @@
 
   <section id="services" style="position: relative; scroll-margin-top: 134px; padding: 32px 20px 34px; background: #0E3A2A; overflow: hidden">
     <div style="position: absolute; inset: 0; z-index: 0">
-      <img src="images/ambulance-highway.png" alt="Ambulance on the highway near Patna, available 24×7 for long-distance transfers" style="width: 100%; height: 100%; object-fit: cover; display: block" />
+      <img src="images/ambulance-highway.webp" alt="Ambulance on the highway near Patna, available 24×7 for long-distance transfers" style="width: 100%; height: 100%; object-fit: cover; display: block" />
     </div>
     <div style="position: absolute; inset: 0; z-index: 1; pointer-events: none; background: linear-gradient(180deg, rgba(14,58,42,.72) 0%, rgba(14,58,42,.45) 40%, rgba(14,58,42,.78) 100%)"></div>
     <div style="position: relative; z-index: 2; max-width: 860px; margin: 0 auto; pointer-events: none">
@@ -368,8 +372,8 @@ class Component extends DCLogic {
   }
 
   fleet = [
-    { id: "fleet1", src: "images/ambulance-highway.png", alt: "24×7 emergency ambulance travelling on the Patna highway", cap: "Long-distance ambulance on the Patna–Delhi highway", pos: "center" },
-    { id: "fleet2", src: "images/icu-interior.png", alt: "ICU ambulance interior in Patna with ventilator, cardiac monitor and oxygen cylinder", cap: "ICU ambulance with ventilator, monitor and oxygen", pos: "center" },
+    { id: "fleet1", src: "images/ambulance-highway.webp", alt: "24×7 emergency ambulance travelling on the Patna highway", cap: "Long-distance ambulance on the Patna–Delhi highway", pos: "center" },
+    { id: "fleet2", src: "images/icu-interior.webp", alt: "ICU ambulance interior in Patna with ventilator, cardiac monitor and oxygen cylinder", cap: "ICU ambulance with ventilator, monitor and oxygen", pos: "center" },
     { id: "fleet3", src: "images/ambulance-rear.webp", alt: "Rear view of an ambulance interior in Patna with stretcher, attendant seating and emergency kits", cap: "Stretcher, attendant seating and emergency kits on board", pos: "center 40%" },
     { id: "fleet4", src: "images/freezer-ambulance.jpeg", alt: "Dead body freezer box loaded inside a freezer ambulance in Patna", cap: "Dead body freezer ambulance with cold storage box", pos: "center" },
     { id: "fleet5", src: "images/mortuary-van-interior.jpeg", alt: "Stainless steel interior of a mortuary van in Patna with trolley stretcher", cap: "Mortuary van interior with trolley stretcher", pos: "center" },
