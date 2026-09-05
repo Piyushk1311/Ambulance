@@ -112,6 +112,7 @@
   a { color: #14523C; text-decoration: none; }
   a:hover { color: #0E3A2A; }
   @keyframes pulseRing { 0% { box-shadow: 0 0 0 0 rgba(20,82,60,.35); } 70% { box-shadow: 0 0 0 14px rgba(20,82,60,0); } 100% { box-shadow: 0 0 0 0 rgba(20,82,60,0); } }
+  @media (max-width: 480px) { .pickup-drop-grid { grid-template-columns: 1fr !important; } }
 </style>
 </helmet>
 <div style="font-family: Hind, system-ui, sans-serif; background: #F6F2E9; color: #1B2019; max-width: 100%; overflow-x: hidden; padding-bottom: 88px">
@@ -287,7 +288,7 @@
             </sc-for>
           </select>
         </label>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 14px">
+        <div class="pickup-drop-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 14px">
           <label style="display: grid; gap: 6px; font-size: 14px; font-weight: 700; color: #4A5148">Pickup location
             <input type="text" value="{{ pickup }}" onChange="{{ onPickup }}" placeholder="Hospital / area in Patna" required="" style="font-family: Hind, sans-serif; font-size: 16px; padding: 14px; border: 1px solid #DED6C4; border-radius: 12px; background: #FFFFFF; color: #1B2019; min-height: 48px" />
           </label>
