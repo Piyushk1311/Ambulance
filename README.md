@@ -43,5 +43,5 @@ transfer, dead body freezer, long distance and air ambulance.
 
 ## Phone
 
-All call and WhatsApp links point to **9731007202**. To change the number,
-find and replace `9731007202` across `index.html` and `services.html`.
+All call and WhatsApp links point to **7677707979**. To change the number,
+find and replace `7677707979` across `index.html` and `services.html`.
