@@ -1,5 +1,5 @@
 (function () {
-  var GA_ID = "G-XXXXXXXXXX";
+  var GA_ID = "G-CZXMEKCNE3";
   if (GA_ID.indexOf("XXXX") !== -1) return;
 
   window.dataLayer = window.dataLayer || [];
